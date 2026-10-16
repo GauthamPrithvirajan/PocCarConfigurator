@@ -4,11 +4,12 @@
 }
 h2{height:40px; margin:0px; padding:6px 16px 2px 16px; line-height:1.5;}
 body { padding: 0; margin: 0; font-family:"EurostileCondensedRegular", arial; }
+canvas{width: 100vw; height: 100vh;}
 #unity-container { width:100vw; height:100vh; display:flex; flex-flow: row wrap; justify-content: space-evenly; gap:0px;}
 
 #navbar{width:100%; height:60px; background:#002A4D;}
 
-#sidePanel{box-sizing:border-box; height:calc(100% - 60px); width: 24%; background:#ffffff; display:flex; flex-flow: row wrap; justify-content:center; align-items: flex-start; align-content:flex-start; overflow-y:scroll; gap:0px 12px;}
+/* #sidePanel{box-sizing:border-box; height:calc(100% - 60px); width: 24%; background:#ffffff; display:flex; flex-flow: row wrap; justify-content:center; align-items: flex-start; align-content:flex-start; overflow-y:scroll; gap:0px 12px;} */
 
 .swatchPanel{box-sizing:border-box; height:auto; min-width:280px; width: fit-content; background:#ffffff; padding:24px 24px; display:flex; flex-flow: row wrap; justify-content:space-evenly; gap:16px;}
 
