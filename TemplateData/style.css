@@ -4,7 +4,7 @@
 }
 h2{height:40px; margin:0px; padding:6px 16px 2px 16px; line-height:1.5;}
 body { padding: 0; margin: 0; font-family:"EurostileCondensedRegular", arial; }
-canvas{width: 100vw; height: 100vh;}
+canvas{width: 100vw !important; height: 100vh !important;}
 #unity-container { width:100vw; height:100vh; display:flex; flex-flow: row wrap; justify-content: space-evenly; gap:0px;}
 
 #navbar{width:100%; height:60px; background:#002A4D;}
